@@ -4,7 +4,7 @@
 
 ### Fast Multi-Source Passive Subdomain Discovery Tool
 
-![Version](https://img.shields.io/badge/Version-8.1.0-purple?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0-purple?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=for-the-badge&logo=linux)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
