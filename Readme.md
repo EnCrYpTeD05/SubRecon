@@ -47,7 +47,7 @@
 
 **SubRecon** is a fast, single-file Python tool for passive subdomain enumeration with intelligent false-positive filtering. It queries multiple OSINT sources in parallel, normalizes and deduplicates results, detects wildcard DNS, and exports a clean verified subdomain list — all with a live Rich UI dashboard showing real-time progress.
 
-It also auto-detects and integrates external tools like `subfinder`, `amass`, `assetfinder`, and `sublist3r` if they are already installed on your system.
+
 
 > ⚡ Fast. Silent. Accurate.
 
