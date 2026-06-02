@@ -61,7 +61,7 @@
 
 **🌐 Passive Collection**
 - 5 built-in OSINT sources queried in parallel
-- Auto-integration of external tools (subfinder, amass, etc.)
+- Auto-integration of external tools 
 - Concurrent multi-threaded collection
 - Internet connectivity check before starting
 
@@ -112,18 +112,7 @@ SubRecon queries the following **passive OSINT sources** — no direct requests 
 | 4 | **URLScan.io** | Web Scanner | Historical scan results containing subdomain data |
 | 5 | **RapidDNS** | DNS Search Engine | Fast passive subdomain enumeration |
 
-### 🔧 External Tool Integration (Auto-detected)
 
-If any of these tools are installed, SubRecon automatically uses them as additional sources:
-
-| Tool | Description |
-|------|-------------|
-| **subfinder** | Fast passive subdomain discovery by ProjectDiscovery |
-| **amass** | In-depth passive enumeration by OWASP |
-| **assetfinder** | Lightweight subdomain finder by tomnomnom |
-| **sublist3r** | Multi-engine subdomain enumeration |
-
-> Disable external tools with `--no-external-tools`
 
 ---
 
@@ -185,8 +174,6 @@ python3 subrecon.py example.com
 # Custom timeout and more collector threads
 python3 subrecon.py example.com --timeout 15 --collector-workers 15
 
-# Skip external tools (use built-in sources only)
-python3 subrecon.py example.com --no-external-tools
 
 # High-speed filtering with more workers
 python3 subrecon.py example.com --filter-workers 200
